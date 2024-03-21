@@ -77,8 +77,8 @@ Curl сайта:
 
 С помощью ansible развернута Prometheus и Grafana:
 ![Скриншот-8](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-1.PNG)
-![Скриншот-9](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-2.PNG
-![Скриншот-10](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-3.PNG
+![Скриншот-9](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-2.PNG)
+![Скриншот-10](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-3.PNG)
 
 ### Логи
 Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
