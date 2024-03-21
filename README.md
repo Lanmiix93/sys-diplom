@@ -85,6 +85,10 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
+С помощью ansible развернут elasticsearch и kibana. Указаны логи Nginx error и Access:
+![Скриншот-11](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Elastic.PNG)
+![Скриншот-12](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Elastic2.PNG)
+
 ### Сеть
 Разверните один VPC. Сервера web, Elasticsearch поместите в приватные подсети. Сервера Zabbix, Kibana, application load balancer определите в публичную подсеть.
 
