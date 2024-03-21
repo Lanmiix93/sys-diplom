@@ -75,7 +75,7 @@ Curl сайта:
 
 Настройте дешборды с отображением метрик, минимальный набор — по принципу USE (Utilization, Saturation, Errors) для CPU, RAM, диски, сеть, http запросов к веб-серверам. Добавьте необходимые tresholds на соответствующие графики.
 
-С помощью ansible развернута Prometheus и Grafana:
+С помощью ansible развернута Prometheus и Grafana (Доступен по адресу 158.160.60.94:3000 admin:admin) : 
 ![Скриншот-8](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-1.PNG)
 ![Скриншот-9](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-2.PNG)
 ![Скриншот-10](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Monitoring-3.PNG)
@@ -85,7 +85,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
-С помощью ansible развернут elasticsearch и kibana. Указаны логи Nginx error и Access:
+С помощью ansible развернут elasticsearch и kibana. Указаны логи Nginx error и Access (Доступен по адресу 158.160.126.196:5601) :
 ![Скриншот-11](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Elastic.PNG)
 ![Скриншот-12](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Elastic2.PNG)
 
