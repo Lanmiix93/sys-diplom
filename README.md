@@ -55,6 +55,21 @@
 Протестируйте сайт
 `curl -v <публичный IP балансера>:80` 
 
+Target Group:
+![Скриншот-3](https://github.com/Lanmiix93/sys-diplom/blob/main/img/target-group.PNG)
+
+Backend Group:
+![Скриншот-4](https://github.com/Lanmiix93/sys-diplom/blob/main/img/backend-group.PNG)
+
+HTTP Router:
+![Скриншот-5](https://github.com/Lanmiix93/sys-diplom/blob/main/img/http-router.PNG)
+
+Application load Balancer:
+![Скриншот-6](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Load-Balancer.PNG)
+
+Curl сайта:
+![Скриншот-7](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Webserver_Curl.PNG)
+
 ### Мониторинг
 Создайте ВМ, разверните на ней Zabbix. На каждую ВМ установите Zabbix Agent, настройте агенты на отправление метрик в Zabbix. 
 
