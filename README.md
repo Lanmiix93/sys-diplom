@@ -96,5 +96,17 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Настройте ВМ с публичным адресом, в которой будет открыт только один порт — ssh.  Эта вм будет реализовывать концепцию  [bastion host]( https://cloud.yandex.ru/docs/tutorials/routing/bastion) . Синоним "bastion host" - "Jump host". Подключение  ansible к серверам web и Elasticsearch через данный bastion host можно сделать с помощью  [ProxyCommand](https://docs.ansible.com/ansible/latest/network/user_guide/network_debug_troubleshooting.html#network-delegate-to-vs-proxycommand) . Допускается установка и запуск ansible непосредственно на bastion host.(Этот вариант легче в настройке)
 
+Security Group:
+![Скриншот-13](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Security-Group.PNG)
+
+Subnet:
+![Скриншот-14](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Subnet.PNG)
+
+Bastion Host. Пинги до всех ВМ через бастион хост:
+![Скриншот-15](https://github.com/Lanmiix93/sys-diplom/blob/main/img/All_Hosts_Ping.PNG)
+
 ### Резервное копирование
 Создайте snapshot дисков всех ВМ. Ограничьте время жизни snaphot в неделю. Сами snaphot настройте на ежедневное копирование.
+
+![Скриншот-16](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Snapshot-1.PNG)
+![Скриншот-17](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Snapshot-2.PNG)
