@@ -1,0 +1,38 @@
+[bastionhost]
+bastion-host ansible_host=158.160.104.165 ansible_ssh_user=lanmiix
+
+[webservers]
+web1 ansible_host=192.168.10.12
+web2 ansible_host=192.168.20.11
+
+[prometheus]
+prometheus-host ansible_host=192.168.30.5
+
+[grafana]
+grafana-host ansible_host=192.168.30.11
+
+[elasticsearch]
+elasticsearch-host ansible_host=192.168.30.26
+
+[kibana]
+kibana-host ansible_host=192.168.30.7
+
+[webservers:vars]
+ansible_ssh_user=lanmiix
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p lanmiix@158.160.104.165"'
+
+[prometheus:vars]
+ansible_ssh_user=lanmiix
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p lanmiix@158.160.104.165"'
+
+[grafana:vars]
+ansible_ssh_user=lanmiix
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p lanmiix@158.160.104.165"'
+
+[elasticsearch:vars]
+ansible_ssh_user=lanmiix
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p lanmiix@158.160.104.165"'
+
+[kibana:vars]
+ansible_ssh_user=lanmiix
+ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p lanmiix@158.160.104.165"'
