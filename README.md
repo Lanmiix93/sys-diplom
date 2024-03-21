@@ -67,7 +67,7 @@ HTTP Router:
 Application load Balancer:
 ![Скриншот-6](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Load-Balancer.PNG)
 
-Curl сайта:
+Curl сайта (Доступен по адресу 158.160.130.232:80):
 ![Скриншот-7](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Webserver_Curl.PNG)
 
 ### Мониторинг
