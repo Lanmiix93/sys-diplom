@@ -1,0 +1,13 @@
+- hosts: elasticsearch
+  remote_user: lanmiix
+  become: yes
+  become_method: sudo
+  roles:
+    - elasticsearch
+
+- hosts: kibana
+  remote_user: lanmiix
+  become: yes
+  become_method: sudo
+  roles:
+    - kibana
