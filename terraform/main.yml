@@ -1,0 +1,8 @@
+#cloud-config
+users:
+ - name: lanmiix
+   groups: sudo
+   shell: /bin/bash
+   sudo: ['ALL=(ALL) NOPASSWD:ALL']
+   ssh-authorized-keys:
+     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDp/D7m1wbGC69dl9AOSS6k4ONs94QAJy6wX9adH+fc/Jlxjv94hLUHQSwzcdgv5GQRdOdS9G9RU4RK1AhIeGoCTOvxJHgJWhDMk83Qg1pBS0iOyoJqyBw/L9KU6kYFHNyIEGgPrv2EVSAzfe04f961rcjYnLKuGhn3bVcc+93pF1517EyG5zIbL8iIX1gXrvNuxUMX+wyZ/x4H4WaYmCHHfArgum1vLVO6Dplm9vjnY1B+4cMDvK+YgmTVtsmSf4vPNgPKfq9mQjsQq+rHJZKRuviiKQjHATTdCRvLwGrm1knElHDw7uAwk+B6dHr+QiZZj3j57wVPXigj6CLai0if lanmiix@terraform
