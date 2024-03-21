@@ -35,9 +35,9 @@
 
 Поднимаем инфраструктуру через Terraform:
 
-![Скриншот-1] (https://github.com/Lanmiix93/sys-diplom/blob/main/img/Terraform.PNG)
+![Скриншот-1](https://github.com/Lanmiix93/sys-diplom/blob/main/img/Terraform.PNG)
 
-![Скриншот-2] (https://github.com/Lanmiix93/sys-diplom/blob/main/img/VMs-YC.PNG)
+![Скриншот-2](https://github.com/Lanmiix93/sys-diplom/blob/main/img/VMs-YC.PNG)
 
 ### Сайт
 Создайте две ВМ в разных зонах, установите на них сервер nginx, если его там нет. ОС и содержимое ВМ должно быть идентичным, это будут наши веб-сервера.
